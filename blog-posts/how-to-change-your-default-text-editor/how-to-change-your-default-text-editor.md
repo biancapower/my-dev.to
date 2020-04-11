@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: "How to change your default text editor for git (and avoid vim)"
 cover_image: "https://raw.githubusercontent.com/biancapower/my-dev.to/master/blog-posts/how-to-change-your-default-text-editor/assets/cover.png"
 description: "How to change your default text editor for git (and avoid vim)"
