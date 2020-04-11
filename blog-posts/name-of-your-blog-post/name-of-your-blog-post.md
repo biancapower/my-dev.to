@@ -1,7 +1,7 @@
 ---
 published: false
 title: "Your title"
-cover_image: "https://raw.githubusercontent.com/YOUR-USERNAME/YOUR-REPO/master/blog-posts/NAME-OF-YOUR-BLOG-POST/assets/your-asset.png"
+cover_image: "https://raw.githubusercontent.com/biancapower/my-dev.to/master/blog-posts/NAME-OF-YOUR-BLOG-POST/assets/cover.png"
 description: "Description of the article"
 tags: tag1, tag2, tag3
 series:
@@ -10,18 +10,16 @@ canonical_url:
 
 This is an example of how to structure a blog post.
 
-The thing above delimited by `---` is called a "front matter" and it allows us to keep control over our article in a very easy way. Just edit it with your own data and CI will handle the rest to publish it to dev.to!
+Here's an example of embedding an asciinema video:
 
-You can also take advantage of [embedme](https://github.com/zakhenry/embedme) to extract your code from the markdown file and make sure that what you're displaying in the markdown is always up to date too e.g.
+{% asciinema 318544 %}
 
-```ts
-// code/demo-code.ts
+To use `embedme`, put the relevant code in a file inside the code folder, then add a code block specifying language, and comment with a filename in it, as below. Then run the command `embedme blog-posts/name-of-your-blog-post/name-of-your-blog-post.md` to embed the code.
 
-interface A {
-  hello: string;
-}
+```js
+// code/demo-code.js
 ```
 
 # Found a typo?
 
-If you've found a typo, a sentence that could be improved or anything else that should be updated on this blog post, you can access it through a git repository and make a pull request. Instead of posting a comment, please go directly to <REPO URL> and open a new pull request with your changes.
+If you've found a typo, a sentence that could be improved or anything else that should be updated on this blog post, you can access it through a git repository and make a pull request. Instead of posting a comment, please go directly to https://github.com/biancapower/my-dev.to and open a new pull request with your changes.
