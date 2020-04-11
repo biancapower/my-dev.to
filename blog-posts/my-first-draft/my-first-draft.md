@@ -14,7 +14,7 @@ The thing above delimited by `---` is called a "front matter" and it allows us t
 
 ## Level 2
 
-[![asciicast](https://asciinema.org/a/318544.svg)](https://asciinema.org/a/318544)
+{% asciinema 318544 %}
 
 You can also take advantage of [embedme](https://github.com/zakhenry/embedme) to extract your code from the markdown file and make sure that what you're displaying in the markdown is always up to date too e.g.
 
