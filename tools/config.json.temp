@@ -1,0 +1,5 @@
+{
+  "apiKey": "YOUR_DEV.TO_API_KEY",
+  "templateFolder": "name-of-your-blog-post",
+  "targetFolder": "./blog-posts"
+}
