@@ -26,7 +26,7 @@ As you can see, nano is much more straight forward than vim (not least because i
 
 What if you want to change the editor used by git to something external to the terminal, like **VS Code**? Here's how:
 
-<div style="position: relative; padding-bottom: 62.5%; height: 0;"><iframe src="https://www.loom.com/embed/e68a4a5a07cf469397f64a2a1141d89e" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+{% youtube R9u2e66IKzc %}
 
 Note that changing the editor to `code` didn't work quite as we wanted it to - because we're leaving the terminal environment in order to go and edit the file in VS Code, we need to tell git to wait for us. We do that by specifying `code --wait`, which basically says "Hey git, I'm gonna go over to VS Code to edit that file now, just hang about, and once I've closed that file you can read it and finish processing the command".
 
