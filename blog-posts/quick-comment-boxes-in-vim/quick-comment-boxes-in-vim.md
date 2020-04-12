@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: "How to add ASCII Art around code comment blocks in vim"
 cover_image: "https://raw.githubusercontent.com/biancapower/my-dev.to/master/blog-posts/quick-comment-boxes-in-vim/assets/cover.png"
 description: "How to install and use `boxes` to wrap your comments in sweet ASCII art!"
