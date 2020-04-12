@@ -34,7 +34,7 @@ We can check that boxes has installed successfully by running `boxes -v`. If we 
 
 # Command line use
 
-Now we have boxes. Great! What next? Before we go using it in vim, let's play around with it a bit on the command line. The asciinema video below captures the main commands and a demo (you can copy the text out of the video - try it!), or scroll down for a list of the commands to try.
+Now we have boxes. Great! What next? Before we go using it in vim, let's play around with it a bit on the command line. The [asciinema video](https://asciinema.org/) below captures the main commands and a demo (you can copy the text out of the video - try it!), or scroll down for a list of the commands to try.
 
 {% asciinema 318773 %}
 
@@ -87,7 +87,9 @@ and you'll have something like...
 
 ```
 
-There are several configuration options, including alignment of the text within the box. It's also possible to create your own designs and add them to the config. For all this and more, check out the man page by running `man boxes`.
+There are several configuration options, including alignment of the text within the box. It's also possible to create your own designs and add them to the config. For all this and more, check out the man page by running
+
+`$ man boxes`
 
 Happy commenting!
 
