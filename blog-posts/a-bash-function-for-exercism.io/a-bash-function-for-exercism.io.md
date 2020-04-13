@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: "Writing a Bash function to automate Exercism.io exercise setup"
 cover_image: "https://raw.githubusercontent.com/biancapower/my-dev.to/master/blog-posts/a-bash-function-for-exercism.io/assets/cover.png"
 description: "An example of writing a bash function to automate the repetitive stuff"
@@ -19,19 +19,19 @@ Something I found a little repetitive was the process of setting things up to wo
 3. cd into the correct folder (e.g. `cd Exercism/javascript/collatz-conjecture`)
 4. run `npm install` so that the tests are ready to be run
 
-Pretty straightforward, but also a predictable and repeatable pattern... perfect for a bash function! Here's the command I want to be able to run in order to make all of the above execute:
+Pretty straightforward, but also a predictable and repeatable pattern... perfect for a bash function! Here's the command I want to be able to run in order to make all of the above execute (where the name of the exercise is 'collatz-conjecture'):
 
 `$ devil collatz-conjecture`
 
 To make this possible, here's the bash function that I added to my `.zshrc` (I use zsh so added it to my `.zshrc`, but if you're using bash, add it to your `.bashrc`):
 
 ```
-1. devil() {
-2.     exercism download --exercise=$1 --track=javascript && cd ~/Exercism/javascript/$1 && npm install;
-3. }
+devil() {
+    exercism download --exercise=$1 --track=javascript && cd ~/Exercism/javascript/$1 && npm install;
+}
 ```
 
-Let's break it down. Line 1 is the name I've given to the function, followed by parentheses and an open curly brace (standard function syntax). I named my function 'devil' because it's easy to type, and something I associate easily with 'exercism' (making it easy to remember).
+Let's break it down. On line 1 is the name I've given to the function (devil), followed by parentheses and an open curly brace (standard function syntax). I named my function 'devil' because it's easy to type, and something I associate easily with 'exercism' (making it easy to remember).
 
 Line 2 is where the awesomeness happens. These are all the steps I was previously doing 'manually', run for me by executing only one command. The `&&` between each command means that each command must succeed in order for the next one to execute. This makes sense in this context, because each command relies on the previous commands's success. For example, we can't cd into the folder in step 2 if it wasn't created in step 1. But what about the `$1`? That's the bash way of saying "grab the first argument passed in when the function is run, and use it here". So in our example above, `$1` would hold the value `collatz-conjecture`.
 
