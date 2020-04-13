@@ -12,13 +12,13 @@ Here's the situation. Everything seems to be working well with your current code
 
 **Here's how we can combine multiple commits into one, to neaten up our git history and make it easier to see what went on.**
 
-Below is an [asciinema](https://asciinema.org/) cast of me doing just.
+Below is an [asciinema](https://asciinema.org/) cast of me doing just that.
 
 {% asciinema 318544 %}
 
 Let's talk it through. First, doing `git log` shows us the most recent commits. In this case, it's the most recent 4 commits that we want to combine. Those are shown here:
 
-![screenshot](https://raw.githubusercontent.com/biancapower/my-dev.to/master/blog-posts/how-to-combine-git-commits/assets/ScreenShot1.png)
+![screenshot](./assets/ScreenShot1.png)
 
 Next, quit out of git log, so we're back to the terminal.
 
@@ -32,7 +32,7 @@ Now the part we've been waiting for! We're going to run the following command:
 
 This is a `git` command named `rebase`, which we're going to do in interactive mode (`-i` for short), and we're doing it on the most recent 4 commits, which we specify with `HEAD~4` (HEAD is how we refer to our most recent commit). When we run that command we see:
 
-![screenshot](https://raw.githubusercontent.com/biancapower/my-dev.to/master/blog-posts/how-to-combine-git-commits/assets/ScreenShot2.png)
+![screenshot](ScreenShot2.png)
 
 At the top we have a list of the most recent 4 commits - the ones we want to combine. Below that, git helpfully tells us about the options we have. The option we want to use is `squash`, which will 'use commit, but meld into previous commit'. To do that, we edit the file we're in, changing 'pick' to 'squash' for just the commits we want to squash - we leave the original commit unchanged, because that's the one we want to squash the others into (in vim, hit `i` to enter insert mode). At this point we see:
 
