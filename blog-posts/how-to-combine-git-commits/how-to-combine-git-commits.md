@@ -1,7 +1,7 @@
 ---
-published: false
+published: true
 title: "How to Combine Git Commits - Squash 'em with a rebase!"
-cover_image: "https://raw.githubusercontent.com/biancapower/my-dev.to/master/blog-posts/how-to-combine-git-commits/assets/cover.png"
+cover_image:
 description: "Beginner-friendly guide to combining (squashing) git commits using interactive rebase"
 tags: git, tutorial, beginners
 series: git-tips
