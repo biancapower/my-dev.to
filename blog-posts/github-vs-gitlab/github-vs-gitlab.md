@@ -41,6 +41,15 @@ Both have unlimited private and public repos and unlimited contributors
 
 https://about.gitlab.com/stages-devops-lifecycle/pages/
 
+# Editing code in the browser
+
+Although I don’t do it very often, sometimes the most convenient way to make a minor edit to some code or some documentation is via the browser.
+
+## GitHub
+
+## GitLab
+
+
 # Additional Points
 
 ## GitHub
