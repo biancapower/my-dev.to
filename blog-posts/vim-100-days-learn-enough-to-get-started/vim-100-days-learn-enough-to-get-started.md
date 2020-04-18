@@ -8,27 +8,45 @@ series: 100 Days of Vim
 canonical_url:
 ---
 
-To get started using vim, you don't have to understand exactly what each keystroke is doing, how to do things efficiently, or really very much at all. This article takes a practical approach to get anyone started using vim. Vim is a text editor. An extrordinarily powerful text editor, but nevertheless, its purpose is to edit text. The goal of Day 1 is for you to be able to edit text in vim.
+To get started using vim, you don't have to understand exactly what each keystroke is doing, how to do things efficiently, or really very much at all. Forget about best practices for now.
+
+This article takes a practical approach to get anyone started using vim. Vim is a text editor. An extrordinarily powerful text editor, but nevertheless, its purpose is to edit text. _**The goal of Day 1 is for you to be able to edit text in vim**_.
 
 With that in mind, by the end of this article you'll be able to:
 
-- open a file in vim
-- edit some text in vim
-- save a file you've edited in vim
-- quit vim
+- [Open a file](#open)
+- [Edit some text](#edit)
+- [Save the file](#save)
+- [Close the file & quit vim](#quit)
 
+# Open a file <a name="open"></a>
 
-- Open a file
-- Insert and normal modes
-- Move cursor hjkl + arrows
-- Delete & type
-- Save
-- Quit
-- Statusline basics
+1. find the path to the file that you want to open
+2. open the terminal
+3. use the command `vim filename.txt`
 
-# How to open a file in vim
+# Edit some text <a name="edit"></a>
 
+1. press `i` to enter INSERT mode
+2. navigate around the file using arrow keys
+3. type and delete text as in most editors
 
+# Save the file <a name="save"></a>
+
+1. press ESC to exit INSERT mode (you're now in NORMAL mode)
+2. press `:w` to save the file (w for write)
+
+# Close the file & quit vim <a name="quit"></a>
+
+1. press `:q` (q for quit)
+
+# Challenge
+
+## Try it
+
+## Walkthrough
+
+################
 
 # Found a typo?
 
