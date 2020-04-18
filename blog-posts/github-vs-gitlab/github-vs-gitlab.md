@@ -49,7 +49,6 @@ Although I don’t do it very often, sometimes the most convenient way to make a
 
 ## GitLab
 
-
 # Additional Points
 
 ## GitHub
