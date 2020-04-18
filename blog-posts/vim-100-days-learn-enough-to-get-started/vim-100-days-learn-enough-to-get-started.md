@@ -1,7 +1,7 @@
 ---
 published: false
-title: "Day 1: Learn enough to start using vim"
-cover_image: "https://raw.githubusercontent.com/biancapower/my-dev.to/master/blog-posts/NAME-OF-YOUR-BLOG-POST/assets/cover.png"
+title: "Day 1: Learn enough vim to start using it"
+cover_image: "https://raw.githubusercontent.com/biancapower/my-dev.to/master/blog-posts/vim-100-days-learn-enough-to-get-started/assets/cover.png"
 description: "Description of the article"
 tags: vim, tutorial, 100DaysOfVim
 series: 100 Days of Vim
