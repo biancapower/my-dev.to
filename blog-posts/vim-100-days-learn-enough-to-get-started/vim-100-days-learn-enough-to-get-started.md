@@ -21,15 +21,19 @@ With that in mind, by the end of this article you'll be able to:
 
 # Open a file <a name="open"></a>
 
-1. find the path to the file that you want to open
-2. open the terminal
+1. open the terminal
+2. cd into the directory of the file that you want to open
 3. use the command `vim filename.txt`
+
+
 
 # Edit some text <a name="edit"></a>
 
 1. press `i` to enter INSERT mode
 2. navigate around the file using arrow keys
 3. type and delete text as in most editors
+
+{% youtube zvGtBZ_ID5M?start=20&end=30&version=3  %}
 
 # Save the file <a name="save"></a>
 
@@ -45,6 +49,8 @@ With that in mind, by the end of this article you'll be able to:
 ## Try it
 
 ## Walkthrough
+
+## Share it!
 
 ################
 
