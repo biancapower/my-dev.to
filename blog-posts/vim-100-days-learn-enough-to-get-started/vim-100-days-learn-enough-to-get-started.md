@@ -25,8 +25,6 @@ With that in mind, by the end of this article you'll be able to:
 2. cd into the directory of the file that you want to open
 3. use the command `vim filename.txt`
 
-
-
 # Edit some text <a name="edit"></a>
 
 1. press `i` to enter INSERT mode
