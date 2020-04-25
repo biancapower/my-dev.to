@@ -48,7 +48,7 @@ The steps below are followed by a short [video demo](#video).
 
 # Found this useful?
 
-If you found this useful, please consider sharing
+If you found this useful, please consider sharing!
 
 # Found a typo?
 
