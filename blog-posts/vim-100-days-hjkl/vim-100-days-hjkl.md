@@ -33,10 +33,9 @@ Hints for remember which keys are for which direction:
 
 In Day 1 we said "don't worry about best practice!", and for the purposes of getting started, I absolutely stand by that. When a toddler starts walking they don't worry about their posture or how the look, they just figure out enough to stay upright! The rest comes with time and practice.
 
-From today though, best practice matters. You can           #FIXME
+From today though, best practice matters. You can #FIXME
 
 Vim is a lot like playing a computer game. The keystrokes are about efficiency. In late 90s PC gaming, WASD were the keys used to move around rather than the arrows, because they freed up the right hand to use the mouse for looking around the game etc. WASD were the keys chosen for efficiency and ergonomics of the left hand - they're on the left side of they keyboard, grouped together in a logical pattern for their use whereby the left hand stays in one place and a minimal amount of movement is needed in order to hit the right key - making for better gameplay!
-
 
 # Challenge
 
