@@ -1,8 +1,8 @@
 ---
 published: false
-title: "Day 1: Learn enough vim to start using it"
-cover_image: "https://raw.githubusercontent.com/biancapower/my-dev.to/master/blog-posts/vim-100-days-learn-enough-to-get-started/assets/cover.png"
-description: "Description of the article"
+title: "Day 1: Learn Enough Vim to Start Using It"
+cover_image:
+description: "Learn vim now with #100DaysOfVim!"
 tags: vim, tutorial, 100DaysOfVim
 series: 100 Days of Vim
 canonical_url:
@@ -19,6 +19,8 @@ With that in mind, by the end of this article you'll be able to:
 - [Save the file](#save)
 - [Close the file & quit vim](#quit)
 
+The steps below are followed by a short [video demo](#video).
+
 # Open a file <a name="open"></a>
 
 1. open the terminal
@@ -31,10 +33,6 @@ With that in mind, by the end of this article you'll be able to:
 2. navigate around the file using arrow keys
 3. type and delete text as in most editors
 
-{% youtube zvGtBZ_ID5M  %}
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/zvGtBZ_ID5M?start=20&end=30&version=3" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 # Save the file <a name="save"></a>
 
 1. press ESC to exit INSERT mode (you're now in NORMAL mode)
@@ -44,15 +42,13 @@ With that in mind, by the end of this article you'll be able to:
 
 1. press `:q` (q for quit)
 
-# Challenge
+# Watch it on Video <a name="video"></a>
 
-## Try it
+{% youtube zvGtBZ_ID5M  %}
 
-## Walkthrough
+# Found this useful?
 
-## Share it!
-
-################
+If you found this useful, please consider sharing
 
 # Found a typo?
 
