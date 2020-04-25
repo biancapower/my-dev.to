@@ -31,7 +31,9 @@ With that in mind, by the end of this article you'll be able to:
 2. navigate around the file using arrow keys
 3. type and delete text as in most editors
 
-{% youtube zvGtBZ_ID5M?start=20&end=30&version=3  %}
+{% youtube zvGtBZ_ID5M  %}
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zvGtBZ_ID5M?start=20&end=30&version=3" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 # Save the file <a name="save"></a>
 
